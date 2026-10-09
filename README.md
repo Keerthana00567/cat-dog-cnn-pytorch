@@ -103,11 +103,13 @@ The project also includes training and validation curves, a confusion matrix hea
 ## Project Structure
 
 ```text
-cat-dog-cnn/
+cat-dog-cnn-pytorch/
 ├── cat_dog_cnn.ipynb
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
+├── cat_dog_cnn_model.pth
+├── cat_dog_cnn_augmented.pth
 └── results/
     ├── training_curves.png
     ├── confusion_matrix.png
